@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c77106c56d6e48588f3bc5ecfef5b131, type: 3}
+  m_Name: SubtractionBundle
+  m_EditorClassIdentifier: 
+  _questions:
+  - rid: 546329302093004810
+  - rid: 546329302093004809
+  - rid: 546329302093004813
+  - rid: 546329302093004814
+  - rid: 546329302093004815
+  - rid: 546329302093004816
+  - rid: 546329302093004817
+  - rid: 546329302093004818
+  - rid: 546329302093004819
+  - rid: 546329302093004820
+  references:
+    version: 2
+    RefIds:
+    - rid: 546329302093004809
+      type: {class: TextInputQuestion, ns: HGtest.Questions, asm: Assembly-CSharp}
+      data:
+        _questionText: 3-1
+        _correctAnswer: 2
+    - rid: 546329302093004810
+      type: {class: TextInputQuestion, ns: HGtest.Questions, asm: Assembly-CSharp}
+      data:
+        _questionText: 5-2
+        _correctAnswer: 3
+    - rid: 546329302093004813
+      type: {class: MultipleChoiceQuestion, ns: HGtest.Questions, asm: Assembly-CSharp}
+      data:
+        _questionText: 2
+        _incorrectAnswers:
+        - 3-2
+        - 4-1
+        _correctAnswers:
+        - 4-2
+        - 5-3
+    - rid: 546329302093004814
+      type: {class: MultipleChoiceQuestion, ns: HGtest.Questions, asm: Assembly-CSharp}
+      data:
+        _questionText: 1
+        _incorrectAnswers:
+        - 3-1
+        - 4-2
+        _correctAnswers:
+        - 4-3
+        - 3-2
+    - rid: 546329302093004815
+      type: {class: MultipleChoiceQuestion, ns: HGtest.Questions, asm: Assembly-CSharp}
+      data:
+        _questionText: 4
+        _incorrectAnswers:
+        - 6-3
+        - 5-2
+        _correctAnswers:
+        - 5-1
+        - 7-3
+    - rid: 546329302093004816
+      type: {class: MultipleChoiceQuestion, ns: HGtest.Questions, asm: Assembly-CSharp}
+      data:
+        _questionText: 3
+        _incorrectAnswers:
+        - 6-2
+        _correctAnswers:
+        - 5-2
+        - 7-4
+        - 4-1
+    - rid: 546329302093004817
+      type: {class: MultipleChoiceQuestion, ns: HGtest.Questions, asm: Assembly-CSharp}
+      data:
+        _questionText: 5
+        _incorrectAnswers:
+        - 6-2
+        _correctAnswers:
+        - 6-1
+        - 7-2
+        - 10-5
+    - rid: 546329302093004818
+      type: {class: MultipleChoiceQuestion, ns: HGtest.Questions, asm: Assembly-CSharp}
+      data:
+        _questionText: 9
+        _incorrectAnswers:
+        - 11-3
+        - 15-5
+        _correctAnswers:
+        - 11-2
+        - 18-9
+    - rid: 546329302093004819
+      type: {class: MultipleChoiceQuestion, ns: HGtest.Questions, asm: Assembly-CSharp}
+      data:
+        _questionText: 8
+        _incorrectAnswers:
+        - 16-9
+        - 10-5
+        _correctAnswers:
+        - 16-8
+        - 12-4
+    - rid: 546329302093004820
+      type: {class: SingleChoiceQuestion, ns: HGtest.Questions, asm: Assembly-CSharp}
+      data:
+        _questionText: 5-5
+        _incorrectAnswers:
+        - 1
+        - 2
+        - 3
+        _correctAnswer: 0
