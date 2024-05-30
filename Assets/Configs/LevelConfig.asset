@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 665ce065ccb84f0f8b51564b6ebf13a1, type: 3}
   m_Name: LevelConfig
   m_EditorClassIdentifier: 
-  _timePerQuestion: 5
-  _questionsCount: 5
+  _timePerQuestion: 30
+  _questionsCount: 10
   _usedBundles:
   - {fileID: 11400000, guid: 8ffc505979718564b8e3c0b660a0783d, type: 2}
   - {fileID: 11400000, guid: d5bd571513fd95c498153c0faa838246, type: 2}
