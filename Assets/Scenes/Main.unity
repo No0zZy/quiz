@@ -276,7 +276,7 @@ GameObject:
   - component: {fileID: 1115397753}
   - component: {fileID: 1115397754}
   m_Layer: 0
-  m_Name: LifetimeScope
+  m_Name: MainLifetimeScope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -311,7 +311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentReference:
     TypeName: 
-  autoRun: 1
+  autoRun: 0
   autoInjectGameObjects: []
   _levelConfig: {fileID: 11400000, guid: 1f91ecf4aec69da45b884c1c2fa7d6d0, type: 2}
   _resultScreenConfig: {fileID: 11400000, guid: 78ef11688cbe52c40a46eec0d593bb18, type: 2}
